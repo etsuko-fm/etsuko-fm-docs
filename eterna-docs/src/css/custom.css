@@ -88,3 +88,7 @@
 .pagination-nav {
   display: none;
 }
+
+.theme-doc-generated-index-page .card__icon {
+  display: none;
+}
