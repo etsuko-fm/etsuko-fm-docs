@@ -1,6 +1,6 @@
-# Website
+# etsuko.fm docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a static website generator.
+Source code for etsuko.fm/docs. Built using Docusaurus.
 
 ## Installation
 
