@@ -5,3 +5,6 @@ pagination_next: null
 ---
 
 # Getting Started
+
+<div className="content-container">
+</div>

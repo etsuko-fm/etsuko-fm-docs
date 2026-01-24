@@ -92,3 +92,8 @@
 .theme-doc-generated-index-page .card__icon {
   display: none;
 }
+
+.content-container { 
+  width: 600px;
+  margin-left: 10px;
+}

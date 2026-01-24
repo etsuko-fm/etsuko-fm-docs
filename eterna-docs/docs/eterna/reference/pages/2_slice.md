@@ -3,12 +3,13 @@ sidebar_position: 2
 ---
 
 # Slice
+<div className="content-container">
+![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/slices.png)
 
 Cut the sample into 1-32 slices with E3. There are 6 voices; each of them is assigned 1 slice for playback. If the number of slices is smaller than 6, one or more slices are used with multiple voices.
 
 When a mono sample is selected, the selected start slice (E2) is assigned to voice 1, while each next slice is assigned to the next voice. See the screenshot below: slice 2 to 7 are assigned to voice 1 to 6.
 
-![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/slices.png)
 
 
 When a stereo sample is selected, each next slice is taken from the alternating channel:
@@ -40,7 +41,11 @@ For an example with a 4-channel file:
 ![screenshot of slice page with 4-channel sample](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/4-ch-slice-2.png)
 
 #### Controls
-- K2: Toggle LFO on/off
-- K3: Select LFO waveform
-- E2: Start slice (which slice is assigned to voice 1 - when set to 2, slices 2-7 are assigned to voice 1-6)
-- E3: Number of slices (1-32)
+| Control | Function | Description |
+|:--------|:---------|:------------|
+| K2 | Toggle LFO on/off | Enables or disables the LFO |
+| K3 | Select LFO waveform | Chooses the waveform shape for the LFO |
+| E2 | Start slice | Which slice is assigned to voice 1 - when set to 2, slices 2-7 are assigned to voice 1-6 |
+| E3 | Number of slices (1-32) | Sets the total number of slices available |
+
+</div>

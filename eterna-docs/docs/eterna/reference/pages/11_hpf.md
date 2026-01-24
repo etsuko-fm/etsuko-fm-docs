@@ -1,16 +1,21 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # Highpass Filter
+<div className="content-container">
+
+![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/lowpass.png)
 
 The pages for lowpass and highpass are identical except for their filter type.
 Each is based on [Supercollider's 12dB/octave SVF filter](https://doc.sccode.org/Classes/SVF.html).
 
-![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/lowpass.png)
 
 #### Controls
-- K2: LFO on/off
-- K3: Filter mix (DRY / 50% / WET) - allows to pass the unfiltered signal 
-- E2: Frequency (20Hz-20kHz)
-- E3: Resonance (0 - 0.98)
+| Control | Function | Description |
+|:--------|:---------|:------------|
+| K2 | LFO on/off | Enables or disables the LFO |
+| K3 | Filter mix (DRY / 50% / WET) | Allows to pass the unfiltered signal |
+| E2 | Frequency (20Hz-20kHz) | Sets the filter cutoff frequency |
+| E3 | Resonance (0 - 0.98) | Controls the filter resonance |
+</div>

@@ -1,15 +1,21 @@
 ---
-sidebar_position: 10
+sidebar_position: 12
 ---
+# Highpass LFO
 
-# Highpass filter LFO
-
-A dedicated page to control the LFO for the highpass filter.
+<div className="content-container">
 
 ![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/highpass-lfo.png)
 
+A dedicated page to control the LFO for the highpass filter.
+
+
 #### Controls
-- K2: LFO on/off
-- K3: LFO waveform
-- E2: LFO rate (synced to clock; 1.00 = 4 beats)
-- E3: LFO range (0-16, unipolar) - implemented using `frequency * 2^range`. 
+| Control | Function | Description |
+|:--------|:---------|:------------|
+| K2 | LFO on/off | Enables or disables the LFO |
+| K3 | LFO waveform | Selects the LFO waveform shape |
+| E2 | LFO rate | Synced to clock; 1.00 = 4 beats |
+| E3 | LFO range (0-16, unipolar) | Implemented using `frequency * 2^range` |
+
+</div>

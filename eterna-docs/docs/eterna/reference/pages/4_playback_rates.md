@@ -3,15 +3,20 @@ sidebar_position: 4
 ---
 
 # Playback Rates
+<div className="content-container">
+![screenshot of playback rates page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/playback-rates.png)
 
 Controls the playback rate and direction (FWD/REV/BI) of all voices. The rates are quantized to octaves. All playback rates are changed are linked to each other as if they form a sine wave together. Center (E2) controls the offset of the wave from the center, while spread (E3) controls the height.
 
 From this follows that if spread is zero, the playback rate for every voice is equal. Range (K3) aids in limiting the total range to 3 octaves if desired.
 
-![screenshot of playback rates page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/playback-rates.png)
 
 #### Controls
-- K2: Select playback direction (forward, reverse or both). When BI is selected, voice 1, 3 and 5 are played forward, while voice 2, 4 and 6 are played in reverse.
-- K3: Toggle max. range (3 or 5 octaves) 
-- E2: Center (offset from center)
-- E3: Spread (how the values are spread over the graph)
+| Control | Function | Description |
+|:--------|:---------|:------------|
+| K2 | Select playback direction | Forward, reverse or both. When BI is selected, voice 1, 3 and 5 are played forward, while voice 2, 4 and 6 are played in reverse |
+| K3 | Toggle max. range (3 or 5 octaves) | Sets the maximum pitch range |
+| E2 | Center (offset from center) | Adjusts the offset from the center point |
+| E3 | Spread | How the values are spread over the graph |
+
+</div>

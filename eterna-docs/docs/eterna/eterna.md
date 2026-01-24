@@ -6,6 +6,8 @@ pagination_prev: null
 
 # Eterna
 
+<div className="content-container">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mj2-zk-1z2U?si=QLlnlDUe3OJBHAhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
@@ -30,3 +32,5 @@ The encoder/knob mapping is the same for every page:
 ## Pages
 
 Eterna consists of 12 separate pages, which may be browsed using E1.
+
+</div>
