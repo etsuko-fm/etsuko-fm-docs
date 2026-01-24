@@ -92,11 +92,10 @@ const config: Config = {
               label: 'Eterna',
               to: '/docs/eterna/',
             },
-            {
-              label: 'Silk',
-              to: '/docs/silk/',
-            },
-
+            // {
+            //   label: 'Silk',
+            //   to: '/docs/silk/',
+            // },
           ],
         },
 
