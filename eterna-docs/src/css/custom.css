@@ -84,3 +84,7 @@
 .menu__caret::before {
   background-size: 1rem; /* Default is usually 1.25rem */
 }
+
+.pagination-nav {
+  display: none;
+}
