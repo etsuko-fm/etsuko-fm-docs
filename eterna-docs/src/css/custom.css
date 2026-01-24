@@ -66,3 +66,21 @@
 .navbar {
   font-family: 'Helvetica', sans-serif;
 }
+
+/* Remove bold styling from collapsible category labels */
+.theme-doc-sidebar-item-category .menu__link {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+.theme-doc-sidebar-item-link>a {
+  font-size: inherit;
+}
+.menu__link {
+  font-size: 1rem; /* or 0.9375rem, 1.0625rem - adjust as needed */
+}
+
+/* Make the caret smaller */
+.menu__caret::before {
+  background-size: 1rem; /* Default is usually 1.25rem */
+}
