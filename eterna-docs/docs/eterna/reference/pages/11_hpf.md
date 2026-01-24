@@ -1,8 +1,8 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
-# Lowpass Filter
+# Highpass Filter
 
 The pages for lowpass and highpass are identical except for their filter type.
 Each is based on [Supercollider's 12dB/octave SVF filter](https://doc.sccode.org/Classes/SVF.html).
