@@ -1,11 +1,11 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'etsuko.fm / docs',
+  title: 'etsuko.fm/docs',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -60,20 +60,40 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  plugins: [
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'etsuko.fm / docs',
+      title: 'etsuko.fm/docs',
       logo: {
         alt: 'etsuko.fm logo',
         src: 'img/logo.png',
       },
       items: [
+        {
+          type: 'dropdown',
+          label: 'products',
+          position: 'right',
+          items: [
+            {
+              label: 'Eterna',
+              to: '/docs/eterna/',
+            },
+            {
+              label: 'Silk',
+              to: '/docs/silk/',
+            },
+
+          ],
+        },
+
         // {
         //   href: 'https://github.com/etsuko-fm',
         //   label: 'GitHub',
@@ -81,49 +101,13 @@ const config: Config = {
         // },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Eterna',
-              to: '/docs/eterna',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'llllllll',
-              href: 'https://llllllll.co/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'http://github.com/etsuko-fm/eterna',
-            },
-            {
-              label: 'Instagram',
-              href: 'https://instagram.com/etsuko.fm',
-            },
-            {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/@etsuko-fm',
-            },          
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} etsuko.fm`,
-    },
+    // footer: {
+    //   links: [
+    //   ],
+    //   // copyright: `Copyright © ${new Date().getFullYear()} etsuko.fm`,
+    // },
     prism: {
-      theme: prismThemes.github,
+      theme: prismThemes.dracula,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
