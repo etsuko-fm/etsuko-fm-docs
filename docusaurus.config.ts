@@ -80,7 +80,7 @@ const config: Config = {
       title: 'etsuko.fm/docs',
       logo: {
         alt: 'etsuko.fm logo',
-        src: 'img/logo.png',
+        src: 'img/etsuko-white-round.png',
         href: '/docs/eterna'
       },
       items: [
