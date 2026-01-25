@@ -81,6 +81,7 @@ const config: Config = {
       logo: {
         alt: 'etsuko.fm logo',
         src: 'img/logo.png',
+        href: '/docs/eterna'
       },
       items: [
         {
