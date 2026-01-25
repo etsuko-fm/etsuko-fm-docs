@@ -74,13 +74,6 @@ function CardLayout({
         title={title}>
         {title}
       </Heading>
-      {description && (
-        <p
-          className={clsx('text--truncate', styles.cardDescription)}
-          title={description}>
-          {description}
-        </p>
-      )}
     </CardContainer>
   );
 }
