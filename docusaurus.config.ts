@@ -7,7 +7,7 @@ import rehypeKatex from 'rehype-katex';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'etsuko.fm/docs',
+  title: 'ETERNA DOCUMENTATION',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -77,12 +77,12 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'etsuko.fm/docs',
-      logo: {
-        alt: 'etsuko.fm logo',
-        src: 'img/etsuko-white-round.png',
-        href: '/docs/eterna'
-      },
+      title: 'ETERNA | DOCUMENTATION',
+      // logo: {
+      //   alt: 'etsuko.fm logo',
+      //   src: 'img/etsuko-white-round.png',
+      //   href: '/docs/eterna'
+      // },
       items: [
         {
           type: 'dropdown',
