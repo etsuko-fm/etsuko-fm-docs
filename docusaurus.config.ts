@@ -77,12 +77,12 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'ETERNA | DOCUMENTATION',
-      // logo: {
-      //   alt: 'etsuko.fm logo',
-      //   src: 'img/etsuko-white-round.png',
-      //   href: '/docs/eterna'
-      // },
+      title: 'ETSUKO.FM | DOCUMENTATION',
+      logo: {
+        alt: 'etsuko.fm logo',
+        src: 'img/etsuko-white-round.png',
+        href: '/docs/eterna'
+      },
       items: [
         {
           type: 'dropdown',
