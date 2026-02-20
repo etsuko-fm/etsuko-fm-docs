@@ -100,3 +100,13 @@
   width: 600px;
   margin-left: 10px;
 }
+
+.markdown {
+  line-height: 2.75;
+}
+
+.markdown table,
+.markdown th,
+.markdown td {
+  line-height: 1.4;
+}
